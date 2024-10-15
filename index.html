@@ -1,313 +1,2946 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <div class="bg-black pb-6 sm:pb-8 lg:pb-12">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-      <header class="mb-4 flex items-center justify-between py-4 md:py-8">
-        <!-- logo - start -->
-        <a href="/" class="inline-flex items-center gap-2.5 text-2xl font-bold text-white md:text-3xl" aria-label="logo">
-        
-  
-          TNSA
-        </a>
-        <!-- logo - end -->
-  
-        <!-- nav - start -->
-        <section class="bg-sky pb-6 sm:pb-8 lg:pb-12">
-    
-        <nav class="hidden gap-12 lg: bg-sky lg:flex">
-          <a href="#" class="text-lg font-semibold text-indigo-500">Home</a>
-          <a href="https://sites.google.com/view/archx-tnsa/home" class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">ARCH-X</a>
-          <a href="https://sites.google.com/view/tnsaai-llms/home" class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">LLMs</a>
-          <a href="https://tnsaai.github.io/about/" class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">About</a>
-        </nav>`
-    </section>
-        <!-- nav - end -->
-  
-        <!-- buttons - start -->
-        <a href="#" class="hidden rounded-lg bg-blue-200 px-8 py-3 text-center text-sm font-semibold text-black-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">Contact Us</a>
-  
-        <button type="button" class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-          </svg>
-  
-          Menu
-        </button>
-        <!-- buttons - end -->
-      </header>
-  
-      <section class="min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48">
-        <!-- image - start -->
-        <img src="image.jpg" loading="lazy" alt="Photo by Fakurian Design" class="absolute inset-0 h-full w-full object-cover object-center" />
-        <!-- image - end -->
-  
-        <!-- overlay - start -->
-        <div class="absolute inset-0 bg-indigo-500 mix-blend-multiply"></div>
-        <!-- overlay - end -->
-  
-        <!-- text start -->
-        <div class="relative flex flex-col items-center p-4 sm:max-w-xl">
-          <p class="mb-4 text-center text-lg text-indigo-200 sm:text-xl md:mb-8">TNSA</p>
-          <h1 class="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">Boost you Works with our Models.</h1>
-  
-          <div class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
-            <a href="#" class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Start now</a>
-  
-            <a href="#" class="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">Take tour</a>
-          </div>
-        </div>
-        <!-- text end -->
-      </section> 
-    </div>
-  </div> 
-  <div class="bg-black mx-auto max-b-7xl px-4 sm:px-6 lg:px-8"> 
-  <br>
-  <br>
-  <br>
-     
+<!-- ✨ Built with Framer • https://www.framer.com/ -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script type="importmap">
+            {
+                "imports": {
+                    "__framer-badge": "https://framerusercontent.com/modules/kr6mBIQPAjMiv35rQa3A/pERRjHDPh9IxXAn0rVsJ/PX9hIOIVM.js",
+                    "@emotion/hash": "https://ga.jspm.io/npm:@emotion/hash@0.8.0/dist/hash.browser.esm.js",
+                    "@motionone/dom": "https://ga.jspm.io/npm:@motionone/dom@10.12.0/dist/index.es.js",
+                    "@motionone/easing": "https://ga.jspm.io/npm:@motionone/easing@10.13.1/dist/index.es.js",
+                    "@motionone/utils": "https://ga.jspm.io/npm:@motionone/utils@10.12.0/dist/index.es.js",
+                    "@react-three/drei": "https://ga.jspm.io/npm:@react-three/drei@8.3.1/index.js",
+                    "@react-three/fiber": "https://ga.jspm.io/npm:@react-three/fiber@7.0.24/dist/react-three-fiber.esm.js",
+                    "airtable": "https://ga.jspm.io/npm:airtable@0.11.1/lib/airtable.js",
+                    "canvas-confetti": "https://ga.jspm.io/npm:canvas-confetti@1.4.0/src/confetti.js",
+                    "color-diff": "https://ga.jspm.io/npm:color-diff@1.2.0/lib/index.js",
+                    "color-hash": "https://ga.jspm.io/npm:color-hash@2.0.1/dist/color-hash.js",
+                    "framer-motion-3d": "https://ga.jspm.io/npm:framer-motion-3d@6.0.0-beta.8/dist/es/index.mjs",
+                    "framesync": "https://ga.jspm.io/npm:framesync@6.1.2/dist/es/index.mjs",
+                    "motion": "https://ga.jspm.io/npm:motion@10.12.0/dist/main.es.js",
+                    "popmotion": "https://ga.jspm.io/npm:popmotion@11.0.3/dist/es/index.mjs",
+                    "react-confetti": "https://ga.jspm.io/npm:react-confetti@6.0.1/dist/react-confetti.min.js",
+                    "shopify-buy": "https://ga.jspm.io/npm:shopify-buy@2.14.0/index.js",
+                    "style-value-types": "https://ga.jspm.io/npm:style-value-types@5.1.0/dist/es/index.mjs",
+                    "three": "https://ga.jspm.io/npm:three@0.136.0/build/three.module.js",
+                    "tinycolor2": "https://ga.jspm.io/npm:tinycolor2@1.4.2/tinycolor.js",
+                    "valtio": "https://ga.jspm.io/npm:valtio@1.2.9/esm/index.js",
+                    "zustand": "https://ga.jspm.io/npm:zustand@3.7.1/esm/index.js",
+                    "zustand/middleware": "https://ga.jspm.io/npm:zustand@3.7.1/esm/middleware.js",
+                    "@vimeo/player": "https://ga.jspm.io/npm:@vimeo/player@2.16.4/dist/player.es.js",
+                    "@cyriacbr/react-split-text": "https://ga.jspm.io/npm:@cyriacbr/react-split-text@1.0.0/dist/index.js",
+                    "#framer/local/canvasComponent/bGMtu3L4K/bGMtu3L4K.js": "https://framerusercontent.com/modules/n5uTAjkeBYprb0UsBPpm/eBUal9YZkg0VMTMzDwK4/bGMtu3L4K.js",
+                    "#framer/local/canvasComponent/ci8xZDJwG/ci8xZDJwG.js": "https://framerusercontent.com/modules/vDTP1Qq7MCu2uDuPO2Id/75FldJTOQB2v240zYRTL/ci8xZDJwG.js",
+                    "#framer/local/canvasComponent/CT9T4r19Y/CT9T4r19Y.js": "https://framerusercontent.com/modules/50boyRbRKZTopAESpA7a/6JnBlDHJ6rDLBR7SCoq0/CT9T4r19Y.js",
+                    "#framer/local/canvasComponent/DSvTaPviJ/DSvTaPviJ.js": "https://framerusercontent.com/modules/reNHlLKBCezYaZ6C2i7b/1omXxglHSilob4iH88SH/DSvTaPviJ.js",
+                    "#framer/local/canvasComponent/GMaomOE3U/GMaomOE3U.js": "https://framerusercontent.com/modules/3tKBzHT1FLpUSWu1GXil/nnKk8BSyEMVNaRMqk7xs/GMaomOE3U.js",
+                    "#framer/local/canvasComponent/i0wxsWiQf/i0wxsWiQf.js": "https://framerusercontent.com/modules/h2KKJrs4F4yZvfWC0FXC/2Ob3IthOO0qncLJyJlgO/i0wxsWiQf.js",
+                    "#framer/local/canvasComponent/Jg5ItQVAC/Jg5ItQVAC.js": "https://framerusercontent.com/modules/sDuOMOJw3AEXyQFXSKrb/rkL9Czf4G2yD0wrsJrMB/Jg5ItQVAC.js",
+                    "#framer/local/canvasComponent/L1SzCQ4LY/L1SzCQ4LY.js": "https://framerusercontent.com/modules/rjGo7TJeSq6CbKpeGdx2/WBW0JHtw6S4bl1vaKb2S/L1SzCQ4LY.js",
+                    "#framer/local/canvasComponent/lhBGXS3Xx/lhBGXS3Xx.js": "https://framerusercontent.com/modules/sxvF55UEklfjUo5ZZGDi/r9QfuTZBgxs6DiVsUPDJ/lhBGXS3Xx.js",
+                    "#framer/local/canvasComponent/NEf8m7Cmv/NEf8m7Cmv.js": "https://framerusercontent.com/modules/tnCkIIYEYcF9ex9wN9nf/D2FuohBiBEi15yBvjE8N/NEf8m7Cmv.js",
+                    "#framer/local/canvasComponent/PTuqO9j0g/PTuqO9j0g.js": "https://framerusercontent.com/modules/o5QIRaT6u1I925OOpBbt/Bt1QRvbK9rDrBt1610lM/PTuqO9j0g.js",
+                    "#framer/local/canvasComponent/Q_IxGDt_w/Q_IxGDt_w.js": "https://framerusercontent.com/modules/uwtSfFWlI9zkODr0cy36/i2OzlX1IkHycJykj2IUr/Q_IxGDt_w.js",
+                    "#framer/local/canvasComponent/qsmEr3Obr/qsmEr3Obr.js": "https://framerusercontent.com/modules/jSbQ47gSSjuz0lZVMxdv/Odif1kdb6OhE7HpsihvB/qsmEr3Obr.js",
+                    "#framer/local/canvasComponent/RMTIifO8H/RMTIifO8H.js": "https://framerusercontent.com/modules/tJtKvONWEv6RJQlx1Ryy/hXP8E53UrxXl6QOSYNZE/RMTIifO8H.js",
+                    "#framer/local/canvasComponent/ToaAzWd8O/ToaAzWd8O.js": "https://framerusercontent.com/modules/rzzALixnjmnWtgoSW1Yn/GsUAvUySW7limuATbbOL/ToaAzWd8O.js",
+                    "#framer/local/canvasComponent/uZI6j5QZr/uZI6j5QZr.js": "https://framerusercontent.com/modules/mTJBOemarGUEfPDvPukR/waKYS74LwQXWQ1HLEZHT/uZI6j5QZr.js",
+                    "#framer/local/canvasComponent/V3_bBduES/V3_bBduES.js": "https://framerusercontent.com/modules/vb3qu7rVKhTnw39S3arM/pC0TdWiUwdeMViZzwFfc/V3_bBduES.js",
+                    "#framer/local/canvasComponent/voPaRlDUS/voPaRlDUS.js": "https://framerusercontent.com/modules/dMXzYk2jFco2g7uCAmZl/Rxb6XczMSSzKBbAEtH1T/voPaRlDUS.js",
+                    "#framer/local/canvasComponent/Vu9tdvNrv/Vu9tdvNrv.js": "https://framerusercontent.com/modules/6LWf4GdlQFmSUUbP2pSx/w3d93BIutJZ4nTbHlREZ/Vu9tdvNrv.js",
+                    "#framer/local/canvasComponent/W_MR005QJ/W_MR005QJ.js": "https://framerusercontent.com/modules/zwhdCtW3JsdSxXiJQSa3/39rmZAShbxMEVf446K9K/W_MR005QJ.js",
+                    "#framer/local/canvasComponent/xfBQV3i_g/xfBQV3i_g.js": "https://framerusercontent.com/modules/q7l2R183cbI5To00bzFk/SCKSEas7YYM47yrNfSJz/xfBQV3i_g.js",
+                    "#framer/local/collection/nTQ3UJ4_A/nTQ3UJ4_A.js": "https://framerusercontent.com/modules/lNdMrUpNOawQu9FaiYI5/gEKQAD1BcwkKaC0Ow2st/nTQ3UJ4_A.js",
+                    "#framer/local/collection/qcOEbDaZ_/qcOEbDaZ_.js": "https://framerusercontent.com/modules/y0eapAKcO2aq43AeJ7Uk/GDkfZbGpFC6Bn7WAMAga/qcOEbDaZ_.js",
+                    "#framer/local/collection/wuP1zvjLC/wuP1zvjLC.js": "https://framerusercontent.com/modules/txrFzNFmInouGZ2ndjDe/8msZlqd9OPj2m9ifJzmM/wuP1zvjLC.js",
+                    "#framer/local/css/bmgtGAtvT/bmgtGAtvT.js": "https://framerusercontent.com/modules/bhq02u1hf9wYzIpu0GQb/4qrcVEEnkuvGzLeenBPh/bmgtGAtvT.js",
+                    "#framer/local/css/CJDXY_YOz/CJDXY_YOz.js": "https://framerusercontent.com/modules/8nKuUPqpzA9kYPYEcfdi/olfr0fE06m9aFVGRF3cF/CJDXY_YOz.js",
+                    "#framer/local/css/irIquxyD6/irIquxyD6.js": "https://framerusercontent.com/modules/2vtotvgj3VRpr9VpbGpn/ZgZEGZw51wvsymufoZV0/irIquxyD6.js",
+                    "#framer/local/css/JG4rYVHpN/JG4rYVHpN.js": "https://framerusercontent.com/modules/5YxpNB5BNoBUMERp3FXL/Mxy2MvbuoEtHJveaj7mq/JG4rYVHpN.js",
+                    "#framer/local/css/KN1n4eozB/KN1n4eozB.js": "https://framerusercontent.com/modules/rxP46AcoZgEXk8WAKAvN/lk5OSdERhMKoc4WDfkEw/KN1n4eozB.js",
+                    "#framer/local/css/l3t9Mt4kW/l3t9Mt4kW.js": "https://framerusercontent.com/modules/2d57w8mpiutZmGJhB1qd/HYfXvPFF3GWwEL1z4wk3/l3t9Mt4kW.js",
+                    "#framer/local/css/OGkaZcHcM/OGkaZcHcM.js": "https://framerusercontent.com/modules/yjtVkWNlJRfcExRnqNZS/xmleWKNhY28kg7VAvVV5/OGkaZcHcM.js",
+                    "#framer/local/css/RbDxuePDP/RbDxuePDP.js": "https://framerusercontent.com/modules/6aLAyIPvNKRMVuPxevLe/kZK3lAEgjAQwld1m98dm/RbDxuePDP.js",
+                    "#framer/local/css/rVaIBWTV0/rVaIBWTV0.js": "https://framerusercontent.com/modules/umUoygf03mA22hXfCfYR/MvSsIVcGEr75YEOpl04k/rVaIBWTV0.js",
+                    "#framer/local/css/uh6qpLKcJ/uh6qpLKcJ.js": "https://framerusercontent.com/modules/kbRLKFwrNglElv5S0SrI/GSa66kKIzTuf5JlXB8xF/uh6qpLKcJ.js",
+                    "#framer/local/css/yp4tIPX4I/yp4tIPX4I.js": "https://framerusercontent.com/modules/pYRi79ezRicDuv0hKqHa/HtoGQJYhqRFTBXy3yX63/yp4tIPX4I.js",
+                    "#framer/local/draftCollection/qcOEbDaZ_/qcOEbDaZ_.js": "https://framerusercontent.com/modules/kizsvnwAtwVAqDzSer4w/FnfdUsxxJWp13qCEOvA6/qcOEbDaZ_.js",
+                    "#framer/local/prototype/QzlV6Ak3T/QzlV6Ak3T.js": "https://framerusercontent.com/modules/3TXOV6HfD5noRTUGRfQp/EUXVoNoKa7AwOElJRDkL/QzlV6Ak3T.js",
+                    "#framer/local/screen/augiA20Il/augiA20Il.js": "https://framerusercontent.com/modules/5BgwjhEtulYJjZtkpe3M/v7kkTPyl7MCqWMbT4oka/augiA20Il.js",
+                    "#framer/local/screen/CelysKm3y/CelysKm3y.js": "https://framerusercontent.com/modules/ep5AN8wIVxsbOdb0QR8R/PNUS2AxhTNuiGVxhZkUg/CelysKm3y.js",
+                    "#framer/local/screen/dd4xkfVUE/dd4xkfVUE.js": "https://framerusercontent.com/modules/6NJMYvRp5eCAC9Ltd8wS/v2qKz3tr4weTry5vFL1i/dd4xkfVUE.js",
+                    "#framer/local/screen/D_d61zKef/D_d61zKef.js": "https://framerusercontent.com/modules/wx3a0MxPqTGKtDjNHMmj/SdT8zR1HBuuCqrxOF5iG/D_d61zKef.js",
+                    "#framer/local/screen/dj3f_GF70/dj3f_GF70.js": "https://framerusercontent.com/modules/aBA2WKDCpMEBQZQPJ4cz/Mplg1p7pDenKw3pw8FBF/dj3f_GF70.js",
+                    "#framer/local/screen/eUFIYsFH2/eUFIYsFH2.js": "https://framerusercontent.com/modules/lwejWRChPQI8y0oUYyNN/ZNXCM7adcEoX2syh0Vcm/eUFIYsFH2.js",
+                    "#framer/local/screen/FdB3w78zm/FdB3w78zm.js": "https://framerusercontent.com/modules/bgIzk0Ac4pCt8TZnNZuZ/N9Jug2kNOf64XFwuoL5T/FdB3w78zm.js",
+                    "#framer/local/screen/fIRYTSuce/fIRYTSuce.js": "https://framerusercontent.com/modules/r19d0gUx3y2JIKgXifMY/2Fs0Qilf6pBrMk6t6N1p/fIRYTSuce.js",
+                    "#framer/local/screen/GTaEJ7SyH/GTaEJ7SyH.js": "https://framerusercontent.com/modules/yzLyEmOtIP0n0bImNA62/sQZRFJkjcxjAdD0axCRb/GTaEJ7SyH.js",
+                    "#framer/local/screen/hWaqAC8CV/hWaqAC8CV.js": "https://framerusercontent.com/modules/moP9YEagJcr2qhFOyLoq/VJRz68x3PMIe6NwdoAbs/hWaqAC8CV.js",
+                    "#framer/local/screen/i9mKF5SR6/i9mKF5SR6.js": "https://framerusercontent.com/modules/20OKojKcCPzC8smPCd1x/Tv7vle8qyVYjUJHKFs78/i9mKF5SR6.js",
+                    "#framer/local/screen/IRJ07CTQq/IRJ07CTQq.js": "https://framerusercontent.com/modules/obic6X2NUjseSL3xKe6K/ABRmrENy5JUTX3n5J5Xl/IRJ07CTQq.js",
+                    "#framer/local/screen/MBRe8Ew2Z/MBRe8Ew2Z.js": "https://framerusercontent.com/modules/8qB8CKBxU2ef54HaEee5/16QmpoKKnymejbJ0dL03/MBRe8Ew2Z.js",
+                    "#framer/local/screen/SKoIqgPVo/SKoIqgPVo.js": "https://framerusercontent.com/modules/wdXnCEr88LMRwF3tjIbC/xRYOKktJApfQLuLBrKsb/SKoIqgPVo.js",
+                    "#framer/local/screen/TSX2_XgOR/TSX2_XgOR.js": "https://framerusercontent.com/modules/3Crxhpfe171l6vrAs9IC/4F3A8yCYUlqeGkGTuIqO/TSX2_XgOR.js",
+                    "#framer/local/screen/wRJD0_4XE/wRJD0_4XE.js": "https://framerusercontent.com/modules/zuk2OKzpLDZcyNcVTZmW/f4RqJxETCtRFOS82DlJu/wRJD0_4XE.js",
+                    "#framer/local/screen/XvpGoLsKr/XvpGoLsKr.js": "https://framerusercontent.com/modules/8XwUQtWzQ5GUuqjIZwzZ/Joe7n1Kz6191vkmLBvDG/XvpGoLsKr.js",
+                    "#framer/local/screen/Yg0gGoq22/Yg0gGoq22.js": "https://framerusercontent.com/modules/crmQLfk0YEjleAeHEw9u/X9FDNTiv9ITh8by6uXuc/Yg0gGoq22.js",
+                    "#framer/local/siteMetadata/siteMetadata/siteMetadata.js": "https://framerusercontent.com/modules/rKuUOzl9mWRZszdbyMEP/GaV0hOhzOarvCxHJOf8m/siteMetadata.js",
+                    "#framer/local/codeFile/OjndCGS/Examples.js": "https://framerusercontent.com/modules/jVTfxbdVCuvCQueYzWF1/tZ2uctgbEs9pwbyjW47c/Examples.js",
+                    "#framer/local/screen/s8L0yLaUq/s8L0yLaUq.js": "https://framerusercontent.com/modules/91HNmMGPO67JdBy285dD/dvk3Auzp9ylNuKIZBX59/s8L0yLaUq.js",
+                    "#framer/local/screen/unLZ_Zxka/unLZ_Zxka.js": "https://framerusercontent.com/modules/b8hV3LMopHtf1BNHg4Ng/ET2Fiq5NquKUSVshBUq8/unLZ_Zxka.js",
+                    "#framer/local/webPageMetadata/CelysKm3y/CelysKm3y.js": "https://framerusercontent.com/modules/1n7L2Fsgkn2kRV1pIdAt/1lVKSREZ3W9F0ed5bwtb/CelysKm3y.js",
+                    "#framer/local/webPageMetadata/dd4xkfVUE/dd4xkfVUE.js": "https://framerusercontent.com/modules/ukQ6bnPY3b40tDeDYzbU/p1ou2nNarNcr3EWlCfJK/dd4xkfVUE.js",
+                    "#framer/local/webPageMetadata/D_d61zKef/D_d61zKef.js": "https://framerusercontent.com/modules/Ar4BqPbbU0QPqIAn1WIO/A8NfHRb21C4lWJPyAFQX/D_d61zKef.js",
+                    "#framer/local/webPageMetadata/dj3f_GF70/dj3f_GF70.js": "https://framerusercontent.com/modules/yRCcLsQo7CT0vDooxLyR/no4BAXed1IYDIwtIOIvy/dj3f_GF70.js",
+                    "#framer/local/webPageMetadata/eUFIYsFH2/eUFIYsFH2.js": "https://framerusercontent.com/modules/nm067hJUBRIZ439lIy6N/wNC1SSDEWmP1BAafl4xi/eUFIYsFH2.js",
+                    "#framer/local/webPageMetadata/FdB3w78zm/FdB3w78zm.js": "https://framerusercontent.com/modules/ehetbgXrKaHf0v2HHhLu/eaw2X8R7I1kUaJAx7QPc/FdB3w78zm.js",
+                    "#framer/local/webPageMetadata/fIRYTSuce/fIRYTSuce.js": "https://framerusercontent.com/modules/zKa2Q62fv5R38ljFZtyy/cfYbJkY9HlQdb1F7lOVz/fIRYTSuce.js",
+                    "#framer/local/webPageMetadata/GTaEJ7SyH/GTaEJ7SyH.js": "https://framerusercontent.com/modules/kjEdSbh4V94FS8EG3sjP/RKUdxmEJcEmAd7P5I1xC/GTaEJ7SyH.js",
+                    "#framer/local/webPageMetadata/hWaqAC8CV/hWaqAC8CV.js": "https://framerusercontent.com/modules/fAvzCrd3l7WeVveDUqcD/0g9hEsLK62qMqBgJXFAn/hWaqAC8CV.js",
+                    "#framer/local/webPageMetadata/i9mKF5SR6/i9mKF5SR6.js": "https://framerusercontent.com/modules/WLtUluPL008lyG8DYtdA/pEIsJO7yRBWjJH6gUPvW/i9mKF5SR6.js",
+                    "#framer/local/webPageMetadata/IRJ07CTQq/IRJ07CTQq.js": "https://framerusercontent.com/modules/7jK4jdPXbB8TsgCj0CL3/KHeRPdrIt5uIPskNTWeX/IRJ07CTQq.js",
+                    "#framer/local/webPageMetadata/MBRe8Ew2Z/MBRe8Ew2Z.js": "https://framerusercontent.com/modules/5BAZnmY3MEPtQk8otSrk/3Ku2kvyV0rjS0Ybh8cSA/MBRe8Ew2Z.js",
+                    "#framer/local/webPageMetadata/s8L0yLaUq/s8L0yLaUq.js": "https://framerusercontent.com/modules/mH729mUZiuj6AnBVTkD6/J8lRpwhuyD9NRM67V9jr/s8L0yLaUq.js",
+                    "#framer/local/webPageMetadata/unLZ_Zxka/unLZ_Zxka.js": "https://framerusercontent.com/modules/mpU79uJz0PKBp7dXWaQM/g5McXav6AvlR4AFD98gR/unLZ_Zxka.js",
+                    "#framer/local/webPageMetadata/SKoIqgPVo/SKoIqgPVo.js": "https://framerusercontent.com/modules/httvj4bOsHsIHTPAAc1Y/rvrNtCsICd6cusEzo2HX/SKoIqgPVo.js",
+                    "#framer/local/webPageMetadata/wRJD0_4XE/wRJD0_4XE.js": "https://framerusercontent.com/modules/nprOt0MjUt5beRNeC5EG/5mcGxCdmZrfSI42wn2o6/wRJD0_4XE.js",
+                    "#framer/local/webPageMetadata/Yg0gGoq22/Yg0gGoq22.js": "https://framerusercontent.com/modules/tpannHAKNtZlP69CyqrP/gV09Z7OkUQb5fs3oGHME/Yg0gGoq22.js",
+                    "#framer/local/webPageMetadata/augiA20Il/augiA20Il.js": "https://framerusercontent.com/modules/fa1VOB4kRDrhvKM5TvS0/pSYIZJMcvM88m1owU4OP/augiA20Il.js",
+                    "framer": "https://app.framerstatic.com/framer.7LTCXNJW.js",
+                    "framer-motion": "https://app.framerstatic.com/framer-motion.SFG5KDCD.js",
+                    "react": "https://ga.jspm.io/npm:react@18.2.0/index.js",
+                    "react-dom": "https://ga.jspm.io/npm:react-dom@18.2.0/index.js",
+                    "react-dom/client": "https://ga.jspm.io/npm:react-dom@18.2.0/client.js",
+                    "react-dom/server": "https://ga.jspm.io/npm:react-dom@18.2.0/server.browser.js",
+                    "react/jsx-runtime": "https://ga.jspm.io/npm:react@18.2.0/jsx-runtime.js"
+                },
+                "scopes": {
+                    "https://ga.jspm.io/": {
+                        "@babel/runtime/helpers/esm/defineProperty": "https://ga.jspm.io/npm:@babel/runtime@7.16.7/helpers/esm/defineProperty.js",
+                        "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.16.7/helpers/esm/extends.js",
+                        "@chevrotain/utils": "https://ga.jspm.io/npm:@chevrotain/utils@9.1.0/lib/src/api.js",
+                        "@motionone/animation": "https://ga.jspm.io/npm:@motionone/animation@10.12.0/dist/index.es.js",
+                        "@motionone/easing": "https://ga.jspm.io/npm:@motionone/easing@10.12.0/dist/index.es.js",
+                        "@motionone/generators": "https://ga.jspm.io/npm:@motionone/generators@10.12.0/dist/index.es.js",
+                        "@motionone/types": "https://ga.jspm.io/npm:@motionone/types@10.12.0/dist/index.es.js",
+                        "@react-spring/animated": "https://ga.jspm.io/npm:@react-spring/animated@9.4.1/dist/react-spring-animated.esm.js",
+                        "@react-spring/core": "https://ga.jspm.io/npm:@react-spring/core@9.4.1/dist/react-spring-core.esm.js",
+                        "@react-spring/rafz": "https://ga.jspm.io/npm:@react-spring/rafz@9.4.1/dist/react-spring-rafz.esm.js",
+                        "@react-spring/shared": "https://ga.jspm.io/npm:@react-spring/shared@9.4.1/dist/react-spring-shared.esm.js",
+                        "@react-spring/three": "https://ga.jspm.io/npm:@react-spring/three@9.4.1/dist/react-spring-three.esm.js",
+                        "@react-spring/types/animated": "https://ga.jspm.io/npm:@react-spring/types@9.4.1/animated.js",
+                        "@react-spring/types/interpolation": "https://ga.jspm.io/npm:@react-spring/types@9.4.1/interpolation.js",
+                        "@use-gesture/core": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/dist/use-gesture-core.esm.js",
+                        "@use-gesture/core/actions": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/actions/dist/use-gesture-core-actions.esm.js",
+                        "@use-gesture/core/types": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/types/dist/use-gesture-core-types.esm.js",
+                        "@use-gesture/core/utils": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/utils/dist/use-gesture-core-utils.esm.js",
+                        "@use-gesture/react": "https://ga.jspm.io/npm:@use-gesture/react@10.2.4/dist/use-gesture-react.esm.js",
+                        "abort-controller": "https://ga.jspm.io/npm:abort-controller@3.0.0/browser.js",
+                        "abortcontroller-polyfill/dist/cjs-ponyfill": "https://ga.jspm.io/npm:abortcontroller-polyfill@1.7.3/dist/cjs-ponyfill.js",
+                        "bidi-js": "https://ga.jspm.io/npm:bidi-js@1.0.2/dist/bidi.js",
+                        "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.14/nodelibs/browser/buffer.js",
+                        "chevrotain": "https://ga.jspm.io/npm:chevrotain@9.1.0/lib_esm/api_esm.mjs",
+                        "debounce": "https://ga.jspm.io/npm:debounce@1.2.1/index.js",
+                        "detect-gpu": "https://ga.jspm.io/npm:detect-gpu@3.1.30/dist/detect-gpu.esm.js",
+                        "fast-deep-equal": "https://ga.jspm.io/npm:fast-deep-equal@3.1.3/index.js",
+                        "fflate": "https://ga.jspm.io/npm:fflate@0.6.10/esm/browser.js",
+                        "framesync": "https://ga.jspm.io/npm:framesync@6.0.1/dist/es/index.mjs",
+                        "hey-listen": "https://ga.jspm.io/npm:hey-listen@1.0.8/dist/index.js",
+                        "ktx-parse": "https://ga.jspm.io/npm:ktx-parse@0.2.2/dist/ktx-parse.modern.js",
+                        "lodash.omit": "https://ga.jspm.io/npm:lodash.omit@4.5.0/index.js",
+                        "lodash.pick": "https://ga.jspm.io/npm:lodash.pick@4.4.0/index.js",
+                        "lodash/get": "https://ga.jspm.io/npm:lodash@4.17.21/get.js",
+                        "lodash/isArray": "https://ga.jspm.io/npm:lodash@4.17.21/isArray.js",
+                        "lodash/isFunction": "https://ga.jspm.io/npm:lodash@4.17.21/isFunction.js",
+                        "lodash/isNil": "https://ga.jspm.io/npm:lodash@4.17.21/isNil.js",
+                        "lodash/isNumber": "https://ga.jspm.io/npm:lodash@4.17.21/isNumber.js",
+                        "lodash/isPlainObject": "https://ga.jspm.io/npm:lodash@4.17.21/isPlainObject.js",
+                        "lodash/isString": "https://ga.jspm.io/npm:lodash@4.17.21/isString.js",
+                        "lodash/keys": "https://ga.jspm.io/npm:lodash@4.17.21/keys.js",
+                        "mmd-parser": "https://ga.jspm.io/npm:mmd-parser@1.0.4/build/mmdparser.js",
+                        "node-fetch": "https://ga.jspm.io/npm:node-fetch@2.6.7/browser.js",
+                        "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
+                        "opentype.js": "https://ga.jspm.io/npm:opentype.js@1.3.4/dist/opentype.module.js",
+                        "potpack": "https://ga.jspm.io/npm:potpack@1.0.2/index.mjs",
+                        "process": "https://framer.com/m/framer/empty.js@0.1.0",
+                        "prop-types": "https://ga.jspm.io/npm:prop-types@15.8.0/index.js",
+                        "proxy-compare": "https://ga.jspm.io/npm:proxy-compare@2.0.2/dist/index.modern.js",
+                        "react-composer": "https://ga.jspm.io/npm:react-composer@5.0.2/es/index.js",
+                        "react-merge-refs": "https://ga.jspm.io/npm:react-merge-refs@1.1.0/dist/react-merge-refs.esm.js",
+                        "react-reconciler": "https://ga.jspm.io/npm:react-reconciler@0.26.2/index.js",
+                        "react-use-measure": "https://ga.jspm.io/npm:react-use-measure@2.1.1/dist/web.js",
+                        "regexp-to-ast": "https://ga.jspm.io/npm:regexp-to-ast@0.5.0/lib/regexp-to-ast.js",
+                        "scheduler": "https://ga.jspm.io/npm:scheduler@0.23.0/index.js",
+                        "style-value-types": "https://ga.jspm.io/npm:style-value-types@5.0.0/dist/es/index.mjs",
+                        "three-mesh-bvh": "https://ga.jspm.io/npm:three-mesh-bvh@0.5.3/src/index.js",
+                        "three-stdlib": "https://ga.jspm.io/npm:three-stdlib@2.6.4/index.js",
+                        "three/examples/js/libs/stats.min": "https://ga.jspm.io/npm:three@0.136.0/examples/js/libs/stats.min.js",
+                        "troika-three-text": "https://ga.jspm.io/npm:troika-three-text@0.44.0/dist/troika-three-text.esm.js",
+                        "troika-three-utils": "https://ga.jspm.io/npm:troika-three-utils@0.44.0/dist/troika-three-utils.esm.js",
+                        "troika-worker-utils": "https://ga.jspm.io/npm:troika-worker-utils@0.44.0/dist/troika-worker-utils.esm.js",
+                        "tslib": "https://ga.jspm.io/npm:tslib@2.3.1/tslib.es6.js",
+                        "use-asset": "https://ga.jspm.io/npm:use-asset@1.0.4/dist/index.cjs.js",
+                        "valtio/vanilla": "https://ga.jspm.io/npm:valtio@1.2.9/esm/vanilla.js",
+                        "zstddec": "https://ga.jspm.io/npm:zstddec@0.0.2/dist/zstddec.js",
+                        "zustand": "https://ga.jspm.io/npm:zustand@3.6.8/esm/index.js",
+                        "popmotion": "https://ga.jspm.io/npm:popmotion@11.0.3/dist/es/index.mjs",
+                        "fs": "https://framer.com/m/framer/empty.js@0.1.0"
+                    },
+                    "https://esm.sh/": {
+                        "fs": "https://framer.com/m/framer/empty.js@0.1.0",
+                        "process": "https://framer.com/m/framer/empty.js@0.1.0",
+                        "scheduler": "https://ga.jspm.io/npm:scheduler@0.23.0/index.js"
+                    },
+                    "https://ga.jspm.io/npm:framer-motion-3d@6.0.0-beta.8/": {
+                        "tslib": "https://ga.jspm.io/npm:tslib@2.3.1/tslib.es6.js"
+                    }
+                }
+            }</script>
+        <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.3/dist/es-module-shims.js" crossorigin="anonymous" data-framer-es-module-shims></script>
+        <!-- Start of headStart -->
+        <!-- End of headStart -->
+        <meta name="viewport" content="width=device-width">
+        <meta name="generator" content="Framer 12ecc5e">
+        <title>TNSA AI</title>
+        <meta name="description" content="TNSA AI Developing AGI now for the Future"/>
+        <meta name="framer-search-index" content="indexing">
+        <meta name="framer-html-plugin" content="disable">
+        <link href="https://framerusercontent.com/images/Ni78hPGRzsxCwIdjYe0icofAqM.svg" rel="icon" media="(prefers-color-scheme: light)">
+        <link href="https://framerusercontent.com/images/Ni78hPGRzsxCwIdjYe0icofAqM.svg" rel="icon" media="(prefers-color-scheme: dark)">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="TNSA AI">
+        <meta property="og:description" content="TNSA AI Developing AGI now for the Future">
+        <meta property="og:image" content="https://framerusercontent.com/images/oTHcqBXdH1o05JUy48sNUmfhI.png">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="TNSA AI">
+        <meta name="twitter:description" content="TNSA AI Developing AGI now for the Future">
+        <meta name="twitter:image" content="https://framerusercontent.com/images/oTHcqBXdH1o05JUy48sNUmfhI.png">
+        <style data-framer-css-ssr>
+            html, body, #main {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
 
-  <section class="py-24 ">
-    <div class="bg-black mx-auto max-b-7xl px-4 sm:px-6 lg:px-8">
-          <div class="mb-14 text-center text-white-900">
-              <h2 class="text-4xl text-center font-bold text-blue-900 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">What we have Developed to help you!</h2>
-              <p class="text-base font-normal text-gray-500 lg:max-w-2xl lg:mx-auto mb-8">Know more about our models  </p>  
-              <div class="flex flex-col justify-center md:flex-row gap-5 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">   
-                  <a href="javascript:;"  class="cursor-pointer bg-indigo-600 py-3 px-6 rounded-full flex items-center justify-center text-sm font-semibold text-white transition-all duration-500 focus:outline-none hover:bg-indigo-700">
-                      Get started
-                  </a>
-                  <a href="javascript:;"  class="cursor-pointer bg-indigo-50 py-3 px-6 rounded-full flex items-center justify-center  text-sm font-semibold text-indigo-600 transition-all duration-500 focus:outline-none hover:bg-indigo-100">
-                      Learn more
-                  </a>
-              </div>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
-              <div class="relative w-full h-auto md:col-span-2">
-                  <div class="bg-gray-800 rounded-2xl flex  justify-between flex-row flex-wrap">
-                      <div class="p-5  xl:p-8 w-full md:w-1/2 ">
-                          <div class="block">
-                              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                  </svg>                                    
-                          </div>
-                          <h3 class="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
-                              Accomplish tasks with Lighting speed with our AI tools.
-                          </h3>
-                          <p class="text-xs font-normal text-gray-300 w-full mb-8 xl:w-64">Use our NGen 2 Alpha to Accomplish your tasks in just </p>
-                          <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-                            <a href="https://tnsa-softwares.github.io/api/">
-                              View More
-                            </a>
-                              <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
-                                  </svg>
-                                  
-                          </button>
-                      </div>
-                      <div class="relative hidden h-auto md:w-1/2 md:block">
-                          <img src="https://pagedone.io/asset/uploads/1695028873.png" alt="Header tailwind Section" class="h-full ml-auto">
-                      </div>
-                  </div>
-              </div>
-              <div class="relative w-full h-auto">
-                  <div class="bg-indigo-500 rounded-2xl p-5  xl:p-8 h-full">
-                      <div class="block">
-                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M24.6429 11.4286C24.6429 14.3872 20.2457 16.7857 14.8214 16.7857C9.3972 16.7857 5 14.3872 5 11.4286M24.6429 16.7857C24.6429 19.7444 20.2457 22.1429 14.8214 22.1429C9.3972 22.1429 5 19.7444 5 16.7857M24.6429 22.1429C24.6429 25.1015 20.2457 27.5 14.8214 27.5C9.3972 27.5 5 25.1015 5 22.1429M24.6429 6.96429C24.6429 9.42984 20.2457 11.4286 14.8214 11.4286C9.3972 11.4286 5 9.42984 5 6.96429C5 4.49873 9.3972 2.5 14.8214 2.5C20.2457 2.5 24.6429 4.49873 24.6429 6.96429Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
-                              </svg>                                
-                      </div>
-                      <h3 class="py-5 text-white text-lg font-bold xl:text-xl">Improved technology Helps you!</h3>
-                      <p class="text-xs font-normal text-white mb-8">We’ve eliminated old analogue methods with our AI Solutions </p>
-                      <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-                          View More
-                          <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
-                              </svg>
-                              
-                      </button>
-                  </div>
-              </div>
-              <div class="relative w-full h-auto">
-                  <div class="bg-violet-500 rounded-2xl p-5 xl:p-8 h-full">
-                      <div class="block">
-                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M26.7301 15.661C26.7301 22.1995 21.306 27.5 14.6151 27.5C7.9241 27.5 2.5 22.1995 2.5 15.661C2.5 9.1225 7.9241 3.822 14.6151 3.822M18.1313 10.1507L18.1313 4.85383C18.1313 3.22503 19.6455 2.00299 21.1519 2.70013C23.7608 3.90751 26.6177 6.25557 27.456 10.2563C27.7542 11.6798 26.4931 12.8563 25.0064 12.8368L20.7873 12.7814C19.3147 12.762 18.1313 11.5899 18.1313 10.1507Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
-                              </svg>
-                                                             
-                      </div>
-                      <h3 class="py-5 text-white text-lg font-bold xl:text-xl">Build wealth with Ehanced planning</h3>
-                      <p class="text-xs font-normal text-white mb-8">Enhance Your workflow with best plan we can ever have!
-                      </p>
-                      <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-                          View More
-                          <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
-                              </svg>
-                              
-                      </button>
-                  </div>
-              </div>
-          
-          </div>
-    </div>
-</section>
+            :root {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
 
-<div class="bg-black mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            * {
+                box-sizing: border-box;
+                -webkit-font-smoothing: inherit;
+            }
 
-<section class="py-24">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-24">
-        <div class="flex items-center lg:mb-0 mb-10">
-            <div class="">
-                <h4 class="text-indigo-600 text-base font-medium leading-6 mb-4 lg:text-left text-center">Contact Us</h4>
-                <h2 class="text-blue-900 font-manrope text-4xl font-semibold leading-10 mb-9 lg:text-left text-center">Reach Out To Us</h2>
-                <form action="">
-                    <input type="text" class="w-full h-14 shadow-sm text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none py-2 px-4 mb-8" placeholder="Name">
-                    <input type="email" class="w-full h-14 shadow-sm text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none py-2 px-4 mb-8" placeholder="Email">
-                    <textarea name="" id="text" class="w-full h-48 shadow-sm resize-none text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-2xl border border-gray-200 focus:outline-none px-4 py-4 mb-8" placeholder="Phone"></textarea>
-                <button class="w-full h-12 text-center text-white text-base font-semibold leading-6 rounded-full bg-indigo-600 shadow transition-all duration-700 hover:bg-indigo-800">Submit</button>
-                </form>
-            </div>
-        </div>
-        <div class="lg:max-w-xl w-full h-[600px] flex items-center justify-center  bg-cover bg-no-repeat bg-[url('https://pagedone.io/asset/uploads/1696245837.png')] ">
-            <div class="">
-                <div class="lg:w-96 w-auto h-auto bg-white shadow-xl lg:p-6 p-4">
-                 
-                    <a href="javascript:;" class="flex items-center mb-6">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.81501 8.75L10.1985 13.6191C12.8358 15.2015 14.1544 15.9927 15.6032 15.9582C17.0519 15.9237 18.3315 15.0707 20.8905 13.3647L27.185 8.75M12.5 25H17.5C22.214 25 24.5711 25 26.0355 23.5355C27.5 22.0711 27.5 19.714 27.5 15C27.5 10.286 27.5 7.92893 26.0355 6.46447C24.5711 5 22.214 5 17.5 5H12.5C7.78595 5 5.42893 5 3.96447 6.46447C2.5 7.92893 2.5 10.286 2.5 15C2.5 19.714 2.5 22.0711 3.96447 23.5355C5.42893 25 7.78595 25 12.5 25Z" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
-                        </svg>
-                        <h5 class="text-black text-base font-normal leading-6 ml-5">tnsa.company@gmail.com</h5>
-                    </a>
-                    <a href="javascript:;" class="flex items-center mb-6">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 12.9169C25 17.716 21.1939 21.5832 18.2779 24.9828C16.8385 26.6609 16.1188 27.5 15 27.5C13.8812 27.5 13.1615 26.6609 11.7221 24.9828C8.80612 21.5832 5 17.716 5 12.9169C5 10.1542 6.05357 7.5046 7.92893 5.55105C9.8043 3.59749 12.3478 2.5 15 2.5C17.6522 2.5 20.1957 3.59749 22.0711 5.55105C23.9464 7.5046 25 10.1542 25 12.9169Z" stroke="#000000" stroke-width="2"></path>
-                            <path d="M17.5 11.6148C17.5 13.0531 16.3807 14.219 15 14.219C13.6193 14.219 12.5 13.0531 12.5 11.6148C12.5 10.1765 13.6193 9.01058 15 9.01058C16.3807 9.01058 17.5 10.1765 17.5 11.6148Z" stroke="#000000" stroke-width="2"></path>
-                        </svg>
-                        <h5 class="text-black text-base font-normal leading-6 ml-5">Vishakapatnam ,India</h5>
-                    </a>
-                    <div class="flex items-center justify-center border-t border-gray-100 pt-6">
-                        <a href="javascript:;" class="mr-6">
-                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.0683594" width="30" height="30" rx="15" fill="#337FFF"></rect>
-                                <path d="M18.5094 15.937L18.9369 13.2236H16.3038V11.4599C16.3038 10.7179 16.6714 9.99293 17.8469 9.99293H19.0608V7.68231C18.3539 7.56968 17.6396 7.50874 16.9236 7.5C14.7565 7.5 13.3417 8.80158 13.3417 11.1546V13.2236H10.9395V15.937H13.3417V22.5H16.3038V15.937H18.5094Z" fill="white"></path>
-                            </svg>
-                        </a>
-                        <a href="javascript:;" class="mr-6">
-                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.0683594" width="30" height="30" rx="15" fill="url(#paint0_linear_11773_24443)"></rect>
-                                <path d="M12.2692 14.9998C12.2692 13.4919 13.492 12.2692 15.0008 12.2692C16.5096 12.2692 17.733 13.4919 17.733 14.9998C17.733 16.5077 16.5096 17.7304 15.0008 17.7304C13.492 17.7304 12.2692 16.5077 12.2692 14.9998ZM10.7922 14.9998C10.7922 17.3228 12.6764 19.2059 15.0008 19.2059C17.3252 19.2059 19.2094 17.3228 19.2094 14.9998C19.2094 12.6768 17.3252 10.7937 15.0008 10.7937C12.6764 10.7937 10.7922 12.6768 10.7922 14.9998ZM18.3925 10.6269C18.3924 10.8213 18.45 11.0114 18.558 11.1731C18.666 11.3348 18.8196 11.4608 18.9993 11.5353C19.1789 11.6098 19.3767 11.6293 19.5675 11.5915C19.7583 11.5536 19.9336 11.4601 20.0712 11.3226C20.2088 11.1852 20.3025 11.0101 20.3406 10.8195C20.3786 10.6288 20.3592 10.4312 20.2848 10.2515C20.2104 10.0719 20.0844 9.91833 19.9227 9.81026C19.7611 9.70219 19.5709 9.64446 19.3764 9.64438H19.376C19.1153 9.6445 18.8652 9.74805 18.6808 9.93228C18.4964 10.1165 18.3927 10.3663 18.3925 10.6269ZM11.6896 21.6672C10.8905 21.6308 10.4561 21.4978 10.1675 21.3854C9.78486 21.2366 9.51183 21.0592 9.22477 20.7727C8.93771 20.4862 8.76002 20.2136 8.6117 19.8312C8.49918 19.5429 8.36608 19.1087 8.32975 18.3101C8.29002 17.4467 8.28208 17.1873 8.28208 14.9998C8.28208 12.8124 8.29067 12.5538 8.32975 11.6896C8.36614 10.891 8.50023 10.4577 8.6117 10.1685C8.76067 9.78606 8.9381 9.51319 9.22477 9.22631C9.51143 8.93942 9.7842 8.76183 10.1675 8.6136C10.456 8.50116 10.8905 8.36813 11.6896 8.33183C12.5535 8.29212 12.813 8.28419 15.0008 8.28419C17.1886 8.28419 17.4483 8.29277 18.313 8.33183C19.1121 8.3682 19.5457 8.5022 19.835 8.6136C20.2177 8.76183 20.4907 8.93981 20.7778 9.22631C21.0649 9.5128 21.2419 9.78606 21.3909 10.1685C21.5034 10.4568 21.6365 10.891 21.6728 11.6896C21.7125 12.5538 21.7205 12.8124 21.7205 14.9998C21.7205 17.1873 21.7125 17.4459 21.6728 18.3101C21.6364 19.1087 21.5027 19.5427 21.3909 19.8312C21.2419 20.2136 21.0645 20.4865 20.7778 20.7727C20.4911 21.059 20.2177 21.2366 19.835 21.3854C19.5465 21.4979 19.1121 21.6309 18.313 21.6672C17.4491 21.7069 17.1895 21.7149 15.0008 21.7149C12.812 21.7149 12.5532 21.7069 11.6896 21.6672ZM11.6217 6.8582C10.7492 6.89791 10.153 7.03618 9.63228 7.23866C9.09304 7.44777 8.63655 7.7283 8.18039 8.18347C7.72422 8.63864 7.44425 9.09557 7.23502 9.63449C7.03241 10.1552 6.89406 10.7507 6.85432 11.6227C6.81393 12.4961 6.80469 12.7753 6.80469 14.9998C6.80469 17.2242 6.81393 17.5035 6.85432 18.3768C6.89406 19.2489 7.03241 19.8444 7.23502 20.3651C7.44425 20.9037 7.72429 21.3611 8.18039 21.8161C8.63648 22.2711 9.09304 22.5512 9.63228 22.7609C10.1539 22.9634 10.7492 23.1017 11.6217 23.1414C12.4961 23.1811 12.775 23.191 15.0008 23.191C17.2266 23.191 17.506 23.1817 18.3799 23.1414C19.2525 23.1017 19.8483 22.9634 20.3693 22.7609C20.9082 22.5512 21.365 22.2713 21.8212 21.8161C22.2774 21.3609 22.5567 20.9037 22.7666 20.3651C22.9692 19.8444 23.1082 19.2488 23.1473 18.3768C23.187 17.5028 23.1962 17.2242 23.1962 14.9998C23.1962 12.7753 23.187 12.4961 23.1473 11.6227C23.1075 10.7507 22.9692 10.1549 22.7666 9.63449C22.5567 9.0959 22.2766 8.63936 21.8212 8.18347C21.3658 7.72758 20.9082 7.44777 20.37 7.23866C19.8483 7.03618 19.2524 6.89726 18.3805 6.8582C17.5066 6.81849 17.2272 6.80859 15.0014 6.80859C12.7756 6.80859 12.4961 6.81783 11.6217 6.8582Z" fill="white"></path>
-                                <defs>
-                                  <linearGradient id="paint0_linear_11773_24443" x1="29.4918" y1="30" x2="-0.50824" y2="-8.07516e-07" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#FBE18A"></stop>
-                                    <stop offset="0.21" stop-color="#FCBB45"></stop>
-                                    <stop offset="0.38" stop-color="#F75274"></stop>
-                                    <stop offset="0.52" stop-color="#D53692"></stop>
-                                    <stop offset="0.74" stop-color="#8F39CE"></stop>
-                                    <stop offset="1" stop-color="#5B4FE9"></stop>
-                                  </linearGradient>
-                                </defs>
-                            </svg>
-                        </a>
-                        <a href="javascript:;" class="mr-6">
-                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="0.884766" width="30" height="30" rx="15" fill="#33CCFF"></rect>
-                                <path d="M23.5888 10.2039C23.0935 10.4171 22.5727 10.5655 22.0394 10.6456C22.2888 10.6028 22.6556 10.154 22.8017 9.97236C23.0235 9.69835 23.1926 9.38555 23.3003 9.04985C23.3003 9.02491 23.3253 8.9893 23.3003 8.97149C23.2878 8.96463 23.2737 8.96103 23.2594 8.96103C23.2451 8.96103 23.231 8.96463 23.2184 8.97149C22.6393 9.28508 22.023 9.52442 21.3841 9.68385C21.3618 9.69066 21.3381 9.69127 21.3155 9.68562C21.2929 9.67997 21.2723 9.66828 21.2558 9.6518C21.2061 9.59257 21.1526 9.53665 21.0956 9.48439C20.8349 9.25089 20.5393 9.05979 20.2193 8.91806C19.7875 8.74088 19.321 8.66415 18.8552 8.69366C18.4031 8.72221 17.9618 8.84345 17.5586 9.04985C17.1616 9.26745 16.8127 9.56306 16.5328 9.91894C16.2384 10.2852 16.0259 10.7103 15.9095 11.1656C15.8135 11.5986 15.8027 12.0462 15.8775 12.4835C15.8775 12.5583 15.8775 12.5689 15.8133 12.5583C13.2738 12.1843 11.1901 11.2831 9.48752 9.34904C9.41272 9.26356 9.37354 9.26356 9.31299 9.34904C8.57213 10.4746 8.93187 12.2555 9.85795 13.1353C9.98261 13.2528 10.1108 13.3668 10.2462 13.4737C9.82159 13.4435 9.40736 13.3284 9.02804 13.1353C8.9568 13.089 8.91762 13.1139 8.91406 13.1994C8.90397 13.3179 8.90397 13.4371 8.91406 13.5556C8.98838 14.1235 9.21222 14.6616 9.56267 15.1147C9.91313 15.5678 10.3776 15.9197 10.9087 16.1343C11.0381 16.1898 11.173 16.2316 11.3112 16.259C10.9181 16.3364 10.515 16.3484 10.118 16.2946C10.0325 16.2768 10.0004 16.3231 10.0325 16.405C10.5561 17.8298 11.6923 18.2643 12.5258 18.5065C12.6397 18.5243 12.7537 18.5243 12.882 18.5528C12.882 18.5528 12.882 18.5528 12.8606 18.5742C12.6148 19.023 11.6211 19.3258 11.1651 19.4825C10.333 19.7814 9.44574 19.8956 8.565 19.8173C8.42609 19.7959 8.39403 19.7995 8.35842 19.8173C8.3228 19.8351 8.35842 19.8743 8.3976 19.9099C8.57569 20.0274 8.75378 20.1307 8.939 20.2305C9.49038 20.5312 10.0733 20.7701 10.6772 20.9428C13.8045 21.8048 17.3236 21.1708 19.6708 18.8378C21.5158 17.007 22.1641 14.4817 22.1641 11.9527C22.1641 11.8566 22.2816 11.7996 22.3493 11.7497C22.8161 11.386 23.2276 10.9565 23.571 10.4746C23.6305 10.4027 23.661 10.3113 23.6565 10.2181C23.6565 10.1647 23.6565 10.1754 23.5888 10.2039Z" fill="white"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-  </div>
-</div>
-</section>
-<section class="py-16 bg-black-600">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 class="font-manrope text-5xl text-white text-center font-bold mb-14">Subscribe Newsletter </h2>
-        <div class="flex items-center justify-center flex-col gap-4 sm:flex-row">
-            <input type="text" name="email" class="py-2.5 px-5 h-14 w-full md:max-w-md border border-gray-300 bg-indigo-500 shadow-sm rounded-full text-lg text-white focus:outline-none placeholder:text-indigo-200" placeholder="Your mail id..">
-            <button class="h-14 py-3.5 px-7 bg-white shadow-sm rounded-full text-indigo-600 font-semibold">Subscribe</button>
-        </div>
-       
-  </div>
-</section>
-                      
+            h1, h2, h3, h4, h5, h6, p, figure {
+                margin: 0;
+            }
 
-<footer class="w-full bg-black-600">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <!--Grid-->
-      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
-          <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
+            body, input, textarea, select, button {
+                font-size: 12px;
+                font-family: sans-serif;
+            }
 
-              <p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">TNSA AI - Building now for the Future</p>
-              <a href="javascript:;"  class="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
-                  Contact us
-              </a>
-          </div>
-          <!--End Col-->
-          <div class="lg:mx-auto text-left ">
-              <h4 class="text-lg text-gray-900 font-medium mb-7">TNSA</h4>
-              <ul class="text-sm  transition-all duration-500">
-                  <li class="mb-6"><a href="#"  class="text-gray-600 hover:text-gray-900">Home</a></li>
-                  <li class="mb-6"><a href="https://tnsaai.github.io/about/"  class=" text-gray-600 hover:text-gray-900">About</a></li>
-                  <li><a href="https://tnsaai.github.io/api/"  class=" text-gray-600 hover:text-gray-900">Features</a></li>
-              </ul>
-          </div>
-            <div class="lg:mx-auto text-left ">
-                <h4 class="text-lg text-gray-900 font-medium mb-7">Products</h4>
-                <ul class="text-sm  transition-all duration-500">
-                    <li class="mb-6"><a href="https://sites.google.com/view/tnsaai-llms/home"  class="text-gray-600 hover:text-gray-900">Large Language Models</a></li>
-                    <li class="mb-6"><a href="https://sites.google.com/view/tnsa-agi/home"  class=" text-gray-600 hover:text-gray-900">Artificial General Intelligence</a></li>
-                    <li class="mb-6"><a href="https://sites.google.com/view/tnsaai-cv-ml/home"  class=" text-gray-600 hover:text-gray-900">Computer Vision and Machine Learning</a></li>
-                    <li><a href="https://sites.google.com/view/archx-tnsa/home"  class=" text-gray-600 hover:text-gray-900">ARCH-X</a></li>
-                </ul>
-            </div>
-            <!--End Col-->
-          
-      </div>
-      <!--Grid-->
-      <div class="py-7 border-t border-gray-200">
-          <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-              <span class="text-sm text-gray-500 ">©<a href="https://pagedone.io/">TNSA</a> 2023 - Present , All rights reserved.</span>
-              <div class="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
-                  <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Social Media">
-                      <path id="Vector" d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z" fill="white"/>
-                      </g>
-                    </svg>
-                  </a>
-                  <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
-                      <svg class="w-[1.25rem] h-[1.125rem] text-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.70975 7.93663C4.70975 6.65824 5.76102 5.62163 7.0582 5.62163C8.35537 5.62163 9.40721 6.65824 9.40721 7.93663C9.40721 9.21502 8.35537 10.2516 7.0582 10.2516C5.76102 10.2516 4.70975 9.21502 4.70975 7.93663ZM3.43991 7.93663C3.43991 9.90608 5.05982 11.5025 7.0582 11.5025C9.05658 11.5025 10.6765 9.90608 10.6765 7.93663C10.6765 5.96719 9.05658 4.37074 7.0582 4.37074C5.05982 4.37074 3.43991 5.96719 3.43991 7.93663ZM9.97414 4.22935C9.97408 4.39417 10.0236 4.55531 10.1165 4.69239C10.2093 4.82946 10.3413 4.93633 10.4958 4.99946C10.6503 5.06259 10.8203 5.07916 10.9844 5.04707C11.1484 5.01498 11.2991 4.93568 11.4174 4.81918C11.5357 4.70268 11.6163 4.55423 11.649 4.39259C11.6817 4.23095 11.665 4.06339 11.6011 3.91109C11.5371 3.7588 11.4288 3.6286 11.2898 3.53698C11.1508 3.44536 10.9873 3.39642 10.8201 3.39635H10.8197C10.5955 3.39646 10.3806 3.48424 10.222 3.64043C10.0635 3.79661 9.97434 4.00843 9.97414 4.22935ZM4.21142 13.5892C3.52442 13.5584 3.15101 13.4456 2.90286 13.3504C2.57387 13.2241 2.33914 13.0738 2.09235 12.8309C1.84555 12.588 1.69278 12.3569 1.56527 12.0327C1.46854 11.7882 1.3541 11.4201 1.32287 10.7431C1.28871 10.0111 1.28189 9.79119 1.28189 7.93669C1.28189 6.08219 1.28927 5.86291 1.32287 5.1303C1.35416 4.45324 1.46944 4.08585 1.56527 3.84069C1.69335 3.51647 1.84589 3.28513 2.09235 3.04191C2.3388 2.79869 2.57331 2.64813 2.90286 2.52247C3.1509 2.42713 3.52442 2.31435 4.21142 2.28358C4.95417 2.24991 5.17729 2.24319 7.0582 2.24319C8.9391 2.24319 9.16244 2.25047 9.90582 2.28358C10.5928 2.31441 10.9656 2.42802 11.2144 2.52247C11.5434 2.64813 11.7781 2.79902 12.0249 3.04191C12.2717 3.2848 12.4239 3.51647 12.552 3.84069C12.6487 4.08513 12.7631 4.45324 12.7944 5.1303C12.8285 5.86291 12.8354 6.08219 12.8354 7.93669C12.8354 9.79119 12.8285 10.0105 12.7944 10.7431C12.7631 11.4201 12.6481 11.7881 12.552 12.0327C12.4239 12.3569 12.2714 12.5882 12.0249 12.8309C11.7784 13.0736 11.5434 13.2241 11.2144 13.3504C10.9663 13.4457 10.5928 13.5585 9.90582 13.5892C9.16306 13.6229 8.93994 13.6296 7.0582 13.6296C5.17645 13.6296 4.95395 13.6229 4.21142 13.5892ZM4.15307 1.03424C3.40294 1.06791 2.89035 1.18513 2.4427 1.3568C1.9791 1.53408 1.58663 1.77191 1.19446 2.1578C0.802277 2.54369 0.56157 2.93108 0.381687 3.38797C0.207498 3.82941 0.0885535 4.3343 0.0543922 5.07358C0.0196672 5.81402 0.0117188 6.05074 0.0117188 7.93663C0.0117188 9.82252 0.0196672 10.0592 0.0543922 10.7997C0.0885535 11.539 0.207498 12.0439 0.381687 12.4853C0.56157 12.9419 0.802334 13.3297 1.19446 13.7155C1.58658 14.1012 1.9791 14.3387 2.4427 14.5165C2.89119 14.6881 3.40294 14.8054 4.15307 14.839C4.90479 14.8727 5.1446 14.8811 7.0582 14.8811C8.9718 14.8811 9.212 14.8732 9.96332 14.839C10.7135 14.8054 11.2258 14.6881 11.6737 14.5165C12.137 14.3387 12.5298 14.1014 12.9219 13.7155C13.3141 13.3296 13.5543 12.9419 13.7347 12.4853C13.9089 12.0439 14.0284 11.539 14.062 10.7997C14.0962 10.0587 14.1041 9.82252 14.1041 7.93663C14.1041 6.05074 14.0962 5.81402 14.062 5.07358C14.0278 4.33424 13.9089 3.82913 13.7347 3.38797C13.5543 2.93135 13.3135 2.5443 12.9219 2.1578C12.5304 1.7713 12.137 1.53408 11.6743 1.3568C11.2258 1.18513 10.7135 1.06735 9.96388 1.03424C9.21256 1.00058 8.97236 0.992188 7.05876 0.992188C5.14516 0.992188 4.90479 1.00002 4.15307 1.03424Z" fill="currentColor"/>
-                          </svg>
-                          
-                  </a>
-                  <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
-                      <svg class="w-[1rem] h-[1rem] text-white" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M2.8794 11.5527V3.86835H0.318893V11.5527H2.87967H2.8794ZM1.59968 2.81936C2.4924 2.81936 3.04817 2.2293 3.04817 1.49188C3.03146 0.737661 2.4924 0.164062 1.61666 0.164062C0.74032 0.164062 0.167969 0.737661 0.167969 1.49181C0.167969 2.22923 0.723543 2.8193 1.5829 2.8193H1.59948L1.59968 2.81936ZM4.29668 11.5527H6.85698V7.26187C6.85698 7.03251 6.87369 6.80255 6.94134 6.63873C7.12635 6.17968 7.54764 5.70449 8.25514 5.70449C9.18141 5.70449 9.55217 6.4091 9.55217 7.44222V11.5527H12.1124V7.14672C12.1124 4.78652 10.8494 3.68819 9.16483 3.68819C7.78372 3.68819 7.17715 4.45822 6.84014 4.98267H6.85718V3.86862H4.29681C4.33023 4.5895 4.29661 11.553 4.29661 11.553L4.29668 11.5527Z" fill="currentColor"/>
-                          </svg>
-                          
-                  </a>
-                  <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
-                      <svg class="w-[1.25rem] h-[0.875rem] text-white" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9346 1.13529C14.5684 1.30645 15.0665 1.80588 15.2349 2.43896C15.5413 3.58788 15.5413 5.98654 15.5413 5.98654C15.5413 5.98654 15.5413 8.3852 15.2349 9.53412C15.0642 10.1695 14.5661 10.669 13.9346 10.8378C12.7886 11.1449 8.19058 11.1449 8.19058 11.1449C8.19058 11.1449 3.59491 11.1449 2.44657 10.8378C1.81277 10.6666 1.31461 10.1672 1.14622 9.53412C0.839844 8.3852 0.839844 5.98654 0.839844 5.98654C0.839844 5.98654 0.839844 3.58788 1.14622 2.43896C1.31695 1.80353 1.81511 1.30411 2.44657 1.13529C3.59491 0.828125 8.19058 0.828125 8.19058 0.828125C8.19058 0.828125 12.7886 0.828125 13.9346 1.13529ZM10.541 5.98654L6.72178 8.19762V3.77545L10.541 5.98654Z" fill="currentColor"/>
-                          </svg>
-                          
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
-</footer>
-                                      
-                                        
-                                                       
-</body>
+            body {
+                --token-be079bad-eabd-4234-8a56-5579c7057187: rgb(0, 0, 0);
+                --token-e16847f2-b192-48e1-a890-7bbcce11cc6e: rgb(255, 255, 255);
+                --token-0e272a57-d630-4ae6-a209-51c62dec2a5a: rgb(102, 102, 102);
+                --token-904c14a9-7582-43d7-a43c-85f49d580145: rgb(150, 150, 150);
+                --token-805b2cc7-f5f2-45e1-8fa3-1b76bb2f7659: rgb(204, 204, 204);
+                --token-14951491-9898-44b6-8e48-90b200ecb226: rgb(227, 227, 227);
+                --token-2c7d0c40-26e8-40d8-9000-c8a4ae165651: rgb(240, 240, 240);
+            }
+
+            @media (prefers-color-scheme: dark) {
+                body {
+                }
+            }
+
+            #__framer-badge-container {
+                position: fixed;
+                bottom: 0;
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: right;
+                pointer-events: none;
+                z-index: 314159;
+            }
+
+            .__framer-badge {
+                pointer-events: auto;
+            }
+
+            /* cyrillic-ext */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format('woff2');
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+
+            /* cyrillic */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            /* greek */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format('woff2');
+                unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+            }
+
+            /* vietnamese */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format('woff2');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+            }
+
+            /* latin-ext */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            /* latin */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            /* cyrillic-ext */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format('woff2');
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+
+            /* cyrillic */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format('woff2');
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+
+            /* greek */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format('woff2');
+                unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+            }
+
+            /* vietnamese */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format('woff2');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+            }
+
+            /* latin-ext */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format('woff2');
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            /* latin */
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/NXxvFRoY5LDh3yCm7MEP2jqYk.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/5CcgcVyoWSqO1THBiISd6oCog.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/MF544SVCvk3yNpLIz3pwDXFZPKM.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/TNtxudDBkAm2RXdtU3rvTBwoM.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/fIabp4VN5z7iJ3lNOz9qfNeQHc.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/YSOgKh50dqzzsXffetgcarlLHcI.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/9iRSYClnXA0RMygyIn6yjjWXJw.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/MVhJhYeDWxeyqT939zMNyw9p8.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/WXQXYfAQJIi2pCJACAfWWXfIDqI.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/RJeJJARdrtNUtic58kOz7hIgBuE.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/4hBRAuM02i3fsxYDzyNvt5Az2so.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/fz1JbBffNGgK7BNUI1mmbFBlgA8.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/hgmI3sEShaw5UU738TAjDBQPH0.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/eIZyQwIlHYR0mnMSneEDMtqBPgw.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/BkDpl4ghaqvMi1btKFyG2tdbec.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/zAMK70AQRFSShJgUiaR5IiIhgzk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/IETjvc5qzUaRoaruDpPSwCUM8.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/oLCoaT3ioA0fHdJnWR9W6k7NY.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/Sj0PCHQSBjFmEp6NBWg6FNaKc.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/v2q8JTTTs7McDMSEhnxAIBqd0.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/H4TfENUY1rh8R9UaSD6vngjJP3M.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/1ZFS7N918ojhhd0nQWdj3jz4w.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/PONfPc6h4EPYwJliXQBmjVx7QxI.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/zsnJN7Z1wdzUvepJniD3rbvJIyU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/UrzZBOy7RyJEWAZGduzOeHiHuY.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/996sR9SfSDuYELz8oHhDOcErkY.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/ftN1HpyPVJEoEb4q36SOrNdLXU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/jN39PDxZWEwjG7Csryx3JN2r2Y.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/JAur4lGGSGRGyrFi59JSIKqVgU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/YJsHMqeEm0oDHuxRTVCwg5eZuo.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/oJJMyJlDykMObEyb5VexHSxd24.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/IpeaX0WzLaonj68howNZg4SJJaY.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/KCj1bV3vDXY5OLHttTeRYcu9J8.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/biaVHhOprxbHaR3dIP7Z8cYurHg.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/BpOIEy4nYtcp1RwqOtwAgi2EiDE.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/gNa011yWpVpNFgUhhSlDX8nUiPQ.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/vpq17U0WM26sBGHgq9jnrUmUf8.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/bNYh7lNMEpOegeRYAtyGel1WqBE.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/FBzcXZYmdulcZC0z278U6o0cw.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/ua60IRqWK94xCrq0SC639Hbsdjg.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/Pd8gNPn2dSCh4FyjWFw9PJysoQ.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/zpiI5DA3vCb3G2sqEyq9xqogo.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/DtVQjTG8OGGKnwKYrMHRZVCyo.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/YYB6GZmCWnZq3RWZOghuZIOxQY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/miJTzODdiyIr3tRo9KEoqXXk2PM.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/6ZMhcggRFfEfbf7lncCpaUbA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/8sCN6PGUr4I8q5hC5twAXfcwqV0.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/aUYDUTztS7anQw5JuwCncXeLOBY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/5mDAOkC5Wpzo7NkuE9oYfqlY2u4.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/yDiPvYxioBHsicnYxpPW35WQmx8.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/vFzuJY0c65av44uhEKB6vyjFMg.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/khkJkwSL66WFg8SX6Wa726c.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/0E7IMbDzcGABpBwwqNEt60wU0w.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/NTJ0nQgIF0gcDelS14zQ9NR9Q.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/QrcNhgEPfRl0LS8qz5Ln8olanl8.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/JEXmejW8mXOYMtt0hyRg811kHac.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/ksvR4VsLksjpSwnC2fPgHRNMw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/uy9s0iWuxiNnVt8EpTI3gzohpwo.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/vxBnBhH8768IFAXAb4Qf6wQHKs.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/zSsEuoJdh8mcFVk976C05ZfQr8.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/b8ezwLrN7h2AUoPEENcsTMVJ0.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/mvNEIBLyHbscgHtwfsByjXUz3XY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/6FI2EneKzM3qBy5foOZXey7coCA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/qrVgiXNd6RuQjETYQiVQ9nqCk.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/NHHeAKJVP0ZWHk5YZnQQChIsBM.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/if4nAQEfO1l3iBiurvlUSTaMA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/GdJ7SQjcmkU1sz7lk5lMpKUlKY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/sOA6LVskcCqlqggyjIZe0Zh39UQ.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/zUCSsMbWBcHOQoATrhsPVigkc.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/6eYp9yIAUvPZY7o0yfI4e2OP6g.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/aKoimhPBfs6C7Am2HTTVjGcpE.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/L9nHaKi7ULzGWchEehsfwttxOwM.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/g0c8vEViiXNlKAgI4Ymmk3Ig.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter";
+                src: url("https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/nCpxWS6DaPlPe0lHzStXAPCo3lw.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/Vu4RH4OOAYHIXg4LpXVzNVmbpY.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/eOWZqb2nQ1SLbtYmcGBFYFSOE5U.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/H0Z3dXk6VFBv9TPQedY7FZVVVQ.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/sMud1BrfhejzYfhsGoUtjWdRb90.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/SDel4nEmK9AyiBktaYZfYI9DrY.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/goi1SSqo9KWshoqpg7CqWwBcQBc.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/iPDparXDXhfwSxmuiEXzr0b1vAU.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 100;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/kZK78sVb0ChIxwI4EF00ArQvpu0.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/zLXnIInNs9VhCJZQ1B0FvHgtWDM.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/yHa3FUh9QDCLkYGoHU44PsRbTI.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/w3wwH92cnNPcZVAf63gAmGQW0k.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/w9aHRXFhel7kScIgRMsPqEwE3AY.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/uUP0myN2OEY8kWGv4U4DKeDieDg.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/eDNmF3DmGWYDX8NrhNZOl1SDyQ.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 200;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/MaMAn5Jp5gJg1z3VaLH65QwWPLc.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/fEqgEChcTaneQFxeugexHq7Bk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/nL7d8Ph0ViwUQorApF89PoAagQI.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/YOHXUQlY1iC2t7qT4HeLSoBDtn4.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/TfzHIi6ZmZDuhnIFGcgM6Ipuim4.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/6e1qKhy2mljzCRhlGpuCksCGjGI.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/ub5XwqqEAMrXQz31ej6fNqbxnBc.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 300;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/ePuN3mCjzajIHnyCdvKBFiZkyY0.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/V3j1L0o5vPFKe26Sw4HcpXCfHo.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/F3kdpd2N0cToWV5huaZjjgM.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/0iDmxkizU9goZoclqIqsV5rvETU.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/r0mv3NegmA0akcQsNFotG32Las.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/8yoV9pUxquX7VD7ZXlNYKQmkmk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/Ii21jnSJkulBKsHHXKlapi7fv9w.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/gazZKZuUEtvr9ULhdA4SprP0AZ0.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/pe8RoujoPxuTZhqoNzYqHX2MXA.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/teGhWnhH3bCqefKGsIsqFy3hK8.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/qQHxgTnEk6Czu1yW4xS82HQWFOk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/MJ3N6lfN4iP5Um8rJGqLYl03tE.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/dHHUz45rhM2KCQpj9zttNVlibk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/0SEEmmWc3vovhaai4RlRQSWRrz0.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 600;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/n9CXKI3tsmCPeC6MCT9NziShSuQ.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/RDJfWXA0aFdpD2OO2AJLBh2Z7E.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/e97VFGU1js4GGgvQCnvIiHpRf0.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/9WZaFuMg9OiQ7an8bugAJkUG04.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/Kc2pkIGjh9K7EmlGx2sorKHcJDw.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/pFve2DToKu0uyKsWs4NBTHpK7Vc.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/1ZgR8LZSrJTG9VOgP5wgqaL3lQ4.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/4hhgqiTCDCCa8WhFmTB7QXODupk.woff2");
+                font-display: swap;
+                font-style: normal;
+                font-weight: 800;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/EZSFVoaPWKnZ6GuVk5dlS5pk.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/TMYuLEOqLWgunxD5qCFeADEgk.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/EL4v8OG6t2XwHSJLO1YF25DNiDw.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/vSoBOmgqFUd0rVCgogjwL7jQI.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/bIwBTbnyeAOa9wQIBagEdRDHXhE.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/ytuJ1iJd5SddEQ3LTMbeYRRwiE.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/fmXYBApyDC604dR7g2aaACGvCk.woff2");
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/fWaKVy6hRB8Z8aBaXHMiFEvPILU.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/syX0favWwGMDkTs34aSUJp2FDg.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/MRDnh8epalyri0qENYQVaYkjNjA.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/dkR8k5Cze1rY2rQWCcFiLvNxm8M.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/3RO0kKTqHkJmvsJcJAr5at0.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/vYXKBGLaUwctOIY5xUjwrXQ4p8.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/GSo3TkcX0SwmUNLnnUlsKhqgZI.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 100;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/7b925B3vAlG2atcrbV7LoSudp7c.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/FuEG87bF2T2uEeI84KQYYAE9wA.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/l72nQILmlFUAK8OXlvJB8Qybl2M.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/PjAOIKsdFTryeYPWcKg4xHgWCTI.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/5u1LyW8isA2RA3QfYvCc6TVeGSU.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/TB25ubMpKGgq66PNQGGdJB2VGM.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/vFOa28RMJNgff4GnWLns8E8vGZw.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 200;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/JVGAsgKKXCCsDQ3MCrxIs5u1U.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/GeFYhvsobZhw8u0Xza2zCmC8Cw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/8dxmIktsyEgZt0OloSu5gz6TgLI.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/f2kclCrwmFV8YeznrosrT3kcjE.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/HTPyW5jOpXfwIja9CrgNJUDriY4.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/SorE7ZPZIqD5pBy9oKeSOEC0Q5k.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/xFtzow8wtMpaEQuIGgCbt25Qorg.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 300;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/THWAFHoAcmqLMy81E8hCSdziVKA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/sQxGYWDlRkDr0eOKqiNRl6g5rs.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/NNTAT1XAm8ZRkr824inYPkjNeL4.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/P2qr9PAWBt905929rHfxmneMUG0.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/2BmSa4TZZvFKAZg2DydxTbvKlTU.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/djqIk3Er2JcAcz7Rup88BdINEw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/KMFW46iYsEZaUBwXbwPc9nQm71o.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 400;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/A5P4nkYCJlLQxGxaS1lzG8PNSc.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/vuPfygr1n1zYxscvWgGI8hRf3LE.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/jplzYzqFHXreyADwk9yrkQlWQ.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/sSIKP2TfVPvfK7YVENPE5H87A.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/gawbeo7iEJSRZ4kcrh6YRrU8o.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/xSzma7KIWAdctStaX171ey3lams.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/8E92vrr3j1gDqzepmeSbD2u0JxA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 500;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/KKQXBq6BF0xEmVbrTnWxh3Yw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/ugFYeIKZEJXDxI6Kh0YQUX6EK9I.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/DgDysCLt0HkIpWMu2uN5tivgQ.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/2yEyxokC6poTg3Uc5E2ogfVi6WE.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/wmHLUqO4QxLaADUScavxvknnBQ.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/08bCJfmvizuFi36VeazboYh54CQ.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/DuYGXsyDXsSnxlZ8qzmcA4x3JiI.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 600;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/TBccIZR9kIpkRce5i9ATfPp7a4.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/F5Lmfd3fCAu7TwiYbI4DLWw4ks.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 700;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/toNasQAsgu8B7dP8n9xdXRzdNhU.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/xPVm3TFQkuvdIaC7nzaBBAiE5Y.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/xwWV9Y5bwNwM4PjHKFG1XmdwA.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/oG51mTqVfF2JDETyCzOOIQOpzY.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/1aaySnsnw0pKE2qUemKvHaM1tw.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/pkaPRuutZhWxJishes736uL2KM.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/gLJVFeatQcrirAaS7jqVJIO4.woff2");
+                font-display: swap;
+                font-style: italic;
+                font-weight: 800;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/yHWoQPBZSEiCC3aW3JXtcoFby8o.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/UHqhq621TbUtspKtPKPA1Ne8qY.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/6dsy2CbviAWDcszGLlgyaLpRMk.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/TQqnntSFYYGDv7XtyT3ZhfvDA.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/nE03Xxh2GngsU8hDpg6CRGxqfoM.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/sz8HQr9IEEln6nmUJ8X0dtBwUQ.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+            }
+
+            @font-face {
+                font-family: "Inter Display";
+                src: url("https://framerusercontent.com/assets/dWFiPjtJpfcxAIDV8RPyuCq04.woff2");
+                font-display: block;
+                font-style: italic;
+                font-weight: 900;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+            }
+
+            @font-face {
+                font-family: "Manrope Placeholder";
+                src: local("Arial");
+                ascent-override: 102.74%; descent-override: 28.91%; line-gap-override: 0.00%; size-adjust: 103.76% }
+
+            @font-face {
+                font-family: "Inter Placeholder";
+                src: local("Arial");
+                ascent-override: 89.79%; descent-override: 22.36%; line-gap-override: 0.00%; size-adjust: 107.89% }
+
+            @font-face {
+                font-family: "Inter Display Placeholder";
+                src: local("Arial");
+                ascent-override: 98.56%; descent-override: 24.54%; line-gap-override: 0.00%; size-adjust: 98.29% }
+        </style>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <!-- Start of headEnd -->
+        <!-- End of headEnd -->
+    </head>
+    <body>
+        <script async src="https://events.framer.com/script" data-fid="17d7e774fb9f0a02ad5241a8d4bceb5540916b46fdac142501b52184ab421372"></script>
+        <!-- Start of bodyStart -->
+        <!-- End of bodyStart -->
+        <div id="main"></div>
+        <div id="__framer-badge-container"></div>
+        <script data-framer-appear-animation="reduce"></script>
+        <script type="module" async data-framer-bundle="main">
+            import*as React from "react"
+            import*as ReactDOM from "react-dom/client"
+            import*as Framer from "framer"
+
+            const routes = {
+                augiA20Il: {
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/5BgwjhEtulYJjZtkpe3M/v7kkTPyl7MCqWMbT4oka/augiA20Il.js")),
+                    path: "/"
+                },
+                dd4xkfVUE: {
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/6NJMYvRp5eCAC9Ltd8wS/v2qKz3tr4weTry5vFL1i/dd4xkfVUE.js")),
+                    path: "/about"
+                },
+                GTaEJ7SyH: {
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/yzLyEmOtIP0n0bImNA62/sQZRFJkjcxjAdD0axCRb/GTaEJ7SyH.js")),
+                    path: "/work"
+                },
+                D_d61zKef: {
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/wx3a0MxPqTGKtDjNHMmj/SdT8zR1HBuuCqrxOF5iG/D_d61zKef.js")),
+                    path: "/contact"
+                },
+                SKoIqgPVo: {
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/wdXnCEr88LMRwF3tjIbC/xRYOKktJApfQLuLBrKsb/SKoIqgPVo.js")),
+                    path: "/404"
+                },
+                i9mKF5SR6: {
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/20OKojKcCPzC8smPCd1x/Tv7vle8qyVYjUJHKFs78/i9mKF5SR6.js")),
+                    path: "/agi"
+                },
+                Yg0gGoq22: {
+                    collectionId: "qcOEbDaZ_",
+                    elements: {},
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/crmQLfk0YEjleAeHEw9u/X9FDNTiv9ITh8by6uXuc/Yg0gGoq22.js")),
+                    path: "/work/:HO_Dxy3Fb"
+                },
+                TSX2_XgOR: {
+                    page: Framer.lazy( () => import("https://framerusercontent.com/modules/3Crxhpfe171l6vrAs9IC/4F3A8yCYUlqeGkGTuIqO/TSX2_XgOR.js"))
+                }
+            }
+            const locales = [{
+                code: "en",
+                id: "default",
+                name: "English",
+                slug: ""
+            }]
+
+            export async function getPageRoot({routeId, pathVariables, localeId}) {
+                // We don't want the initial render to immediately have to suspend.
+                await routes[routeId].page.preload()
+
+                const content = React.createElement(Framer.PageRoot, {
+                    isWebsite: true,
+                    routeId,
+                    pathVariables,
+                    routes,
+                    collectionUtils: {
+                        qcOEbDaZ_: async () => (await import("https://framerusercontent.com/modules/y0eapAKcO2aq43AeJ7Uk/GDkfZbGpFC6Bn7WAMAga/qcOEbDaZ_.js"))?.["utils"]
+                    },
+                    framerSiteId: "17d7e774fb9f0a02ad5241a8d4bceb5540916b46fdac142501b52184ab421372",
+                    notFoundPage: Framer.lazy( () => import("https://framerusercontent.com/modules/wdXnCEr88LMRwF3tjIbC/xRYOKktJApfQLuLBrKsb/SKoIqgPVo.js")),
+                    isReducedMotion: true,
+                    localeId,
+                    locales,
+                    preserveQueryParams: undefined,
+                })
+
+                const contentWithFeaturesContext = React.createElement(Framer.LibraryFeaturesProvider, {
+                    children: content,
+                    value: {
+                        enableAsyncURLUpdates: false,
+                        useGranularSuspense: true
+                    }
+                })
+
+                const page = React.createElement(Framer.PageEffectsProvider, {
+                    children: contentWithFeaturesContext,
+                    value: {
+                        global: {
+                            enter: {
+                                opacity: 0,
+                                rotate: 0,
+                                rotate3d: false,
+                                rotateX: 0,
+                                rotateY: 0,
+                                scale: 1,
+                                transition: {
+                                    damping: 30,
+                                    delay: 0,
+                                    duration: 0.2,
+                                    ease: [0.27, 0, 0.51, 1],
+                                    mass: 1,
+                                    stiffness: 400,
+                                    type: "tween"
+                                },
+                                x: "0px",
+                                y: "0px"
+                            }
+                        },
+                        routes: {}
+                    }
+                })
+
+                return page
+            }
+
+            const isBrowser = typeof document !== "undefined"
+            if (isBrowser) {
+                window.__framer_importFromPackage = (packageAndFilename, exportIdentifier) => () => {
+                    return React.createElement(Framer.ErrorPlaceholder, {
+                        error: 'Package component not supported: "' + exportIdentifier + '" in "' + packageAndFilename + '"'
+                    })
+                }
+
+                // A lot of libraries assume process.env.NODE_ENV is present in runtime/buildtime, so we are polyfilling it
+                window.process = {
+                    ...window.process,
+                    env: {
+                        ...(window.process ? window.process.env : undefined),
+                        NODE_ENV: "production"
+                    }
+                }
+
+                window.__framer_events = window.__framer_events || []
+
+                // Fallback support for stack gaps
+                Framer.installFlexboxGapWorkaroundIfNeeded()
+
+                const container = document.getElementById("main")
+                // We know that #main is parsed before this script, so we don't need to wait for DOMContentLoaded or similar events.
+                if ("framerHydrateV2"in container.dataset)
+                    main(true, container)
+                else
+                    main(false, container)
+            }
+
+            function track() {
+                if (!isBrowser)
+                    return
+                window.__framer_events.push(arguments)
+            }
+
+            async function main(shouldHydrate, container) {
+                try {
+                    let routeId, localeId, pathVariables, breakpoints
+                    if (shouldHydrate) {
+                        const routeData = JSON.parse(container.dataset.framerHydrateV2)
+                        routeId = routeData.routeId
+                        localeId = routeData.localeId
+                        pathVariables = routeData.pathVariables
+                        breakpoints = routeData.breakpoints
+                    } else {
+                        const routeData = Framer.inferInitialRouteFromPath(routes, decodeURIComponent(location.pathname), true, locales)
+                        routeId = routeData.routeId
+                        localeId = routeData.localeId
+                        pathVariables = routeData.pathVariables
+                    }
+
+                    const page = await getPageRoot({
+                        routeId,
+                        localeId,
+                        pathVariables
+                    })
+
+                    function handleRecoverableError(error, errorInfo) {
+                        const componentStack = errorInfo?.componentStack
+                        console.warn("Recoverable error during hydration. Please check any custom code or code overrides to fix server/client mismatches.", error, componentStack)
+                        // we only want to collect 1%, because this can be quite noisy (floods the data pipeline)
+                        if (Math.random() > 0.01)
+                            return
+                        track("published_site_load_recoverable_error", {
+                            message: String(error),
+                            componentStack,
+                            // componentStack is more useful
+                            stack: componentStack ? undefined : error instanceof Error && typeof error.stack === "string" ? error.stack : null,
+                        })
+                    }
+
+                    if (shouldHydrate) {
+
+                        Framer.withPerformanceMarks("framer-rewrite-breakpoints", () => {
+                            Framer.removeHiddenBreakpointLayersV2(breakpoints)
+                            window.__framer_onRewriteBreakpoints?.(breakpoints)
+                        }
+                        )
+
+                        const startTransition = React.startTransition
+                        startTransition( () => {
+                            Framer.markHydrationStart()
+                            Framer.setInitialHydrationState()
+                            if (true)
+                                Framer.turnOffReactEventHandling()
+                            ReactDOM.hydrateRoot(container, page, {
+                                onRecoverableError: handleRecoverableError
+                            })
+                        }
+                        )
+                    } else {
+
+                        ReactDOM.createRoot(container, {
+                            onRecoverableError: handleRecoverableError
+                        }).render(page)
+                    }
+                } catch (error) {
+                    track("published_site_load_error", {
+                        message: String(error),
+                        stack: error instanceof Error && typeof error.stack === "string" ? error.stack : null
+                    })
+                    throw error
+                }
+            }
+
+            ;(function() {
+                if (!isBrowser)
+                    return
+
+                React.startTransition( () => {
+                    ReactDOM.createRoot(document.getElementById("__framer-badge-container")).render(React.createElement(React.Suspense, {}, React.createElement(Framer.withStyleAppearEffect(Framer.Container), {
+                        className: "__framer-badge",
+                        __framer__threshold: 0.5,
+                        __framer__animateOnce: true,
+                        __framer__opacity: 0,
+                        __framer__targetOpacity: 1,
+                        __framer__rotate: 0,
+                        __framer__x: 0,
+                        __framer__y: 10,
+                        __framer__scale: 1,
+                        __framer__transition: {
+                            "type": "spring",
+                            "ease": [0.44, 0, 0.56, 1],
+                            "duration": 0.3,
+                            "delay": 1,
+                            "stiffness": 350,
+                            "damping": 40,
+                            "mass": 1.5
+                        },
+                        __framer__rotateX: 0,
+                        __framer__rotateY: 0,
+                        __framer__perspective: 1200,
+                    }, React.createElement(React.lazy( () => import("__framer-badge"))))))
+                }
+                )
+            }
+            )()
+        </script>
+        <!-- Start of bodyEnd -->
+        <!-- End of bodyEnd -->
+    </body>
 </html>
